@@ -1,0 +1,42 @@
+@media screen and (max-width: 1440px){
+    .grid-container{
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        height: 10%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .grid-item {
+        width: 80%;
+        height: 100%;
+    }
+
+    a {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    #card2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 281px){
+    .grid-container{
+        width: 100%;
+    }
+
+    .titulo {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .grid-item {
+        height: 500px;
+    }
+}
